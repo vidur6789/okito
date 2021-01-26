@@ -1,0 +1,119 @@
+############################### Banner ##############################
+banner:
+  enable : false
+  bg_image : "images/slider-bg.jpg"
+  bg_overlay : true
+  title : "A Digital Marketing <br/> & Design Agency"
+  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  button:
+    enable : true
+    label : "Discover Our Project"
+    link : "project"
+
+############################# About #################################
+about:
+  enable : true
+  title : "About Us"
+  description : "Ivy Capital provides financial advisory services, including equity investment research and holistic financial planning
+              to ensure that our cients are prepared to achieve their lifelong financial goals while maximising the return potential of 
+              their hard-earned money. At Ivy Capital Investments, generating alpha for our clients is the priority."
+  content : ""
+  image : "images/wrapper-img.png"
+
+
+######################### Portfolio ###############################
+portfolio:
+  enable : true
+  bg_image : "images/featue-bg.jpg"
+  title : "WE BELIEVE IN GREAT IDEAS"
+  content : "
+  <strong>Investment Philosophy</strong><br/>
+  Our investment philosophy focuses on identifying companies with a strong <em>economic moat</em> and the potential to consistently outperform peers.
+  The investment process at Ivy Capital Investments combines systematic qualitative evauation with thorough quantitative analysis of financial 
+  fundamentals to identify instrinsic value with a <em>margin of safety</em>. 
+
+
+  <strong>Investment Horizon</strong><br/>
+  At Ivy Capital, we believe in investing consistently and for the long term in the equity markets to truly take advantage of the exponential 
+  benefits of compounding. This means that we are always prepared to fulfill our near-term financial needs with shorter duration products. 
+  With this methodolgy, we are able to evade the selling pressure during periods of market turmoil, and in fact use that as a buying opportunity
+  for quality investments. 
+
+
+  <strong>Risk Mitigation</strong><br/>
+  We account for risk at every stage of the investment process to ensure that we minmize the unpleasant surprises. Our qualititative and quantitative
+  analysis includes evaluation of quality of reported financial statements, credibility of management and several red-flag checks for a company's
+  short-term and long-term financial health. These risk mitigation measures are combined with the power of diversification to ensure that 
+  we are never exposed to concentrated portions of risk in our portfolio. 
+  "
+  button:
+    enable : true
+    label : "View Strategies"
+    link : "strategies"
+
+
+############################# Service ############################
+service:
+  enable : false
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
+cta:
+  enable : true
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "We deliver market-beating returns"
+  content : "Get in touch with us to learn more about how we can help you in achieving your financial goals with the right investments"
+  button:
+    enable : true
+    label : "Tell Us Your Story"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : false
+  title : "Fun Facts About Us"
+  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
+      
+    # funfacts item loop
+    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Article Written"
+      count : "45"
+      
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Completed"
+      count : "125"
+      
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Combined Projects"
+      count : "200"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Raymond Roy"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Randi Renin"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Rose Rio"
+      image : "images/clients/avater-3.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
