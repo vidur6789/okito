@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
+baseURL = ""
 title = "Ivy Capital Investments"
 theme = "airspace-hugo"
 # post pagination
